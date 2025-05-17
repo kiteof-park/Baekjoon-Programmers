@@ -45,9 +45,6 @@ public class Main{
                 }
             }
         }
-        
-        PrintWriter pw = new PrintWriter(System.out);
-        pw.println(cnt);
-        pw.flush();
+        System.out.println(cnt);
     }
 }
